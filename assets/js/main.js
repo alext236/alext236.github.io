@@ -161,6 +161,12 @@
 
 				});
 
+			/*Smooth scrolling for nav*/	
+			$('.smooth-goto').on('click', function() {
+			    $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 700);
+			    return false;
+			});
+
 	});
 
 })(jQuery);
