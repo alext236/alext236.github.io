@@ -161,9 +161,9 @@
 
 				});
 
-			/*Smooth scrolling for nav*/	
+			/*Smooth scrolling for nav*/
 			$('.smooth-goto').on('click', function() {
-			    $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 700);
+			    $('html, body').animate({scrollTop: $(this.hash).offset().top - 70}, 700);
 			    return false;
 			});
 
