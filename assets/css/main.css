@@ -3203,6 +3203,7 @@
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
+
 			}
 
 		}
@@ -3309,10 +3310,20 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://tuandao.me/images/bg1.JPG");
+			/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://tuandao.me/images/bg1.JPG");*/
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
+
+		}
+		.baunsu-header {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://tuandao.me/images/baunsu-bg.png");
+			/*background-repeat: no-repeat;*/
+		}
+
+		.fireflies-header {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://tuandao.me/images/fireflies-6.jpg");
+			/*background-repeat: no-repeat;*/
 		}
 
 	}
@@ -3335,7 +3346,7 @@
 	@media screen and (max-width: 736px) {
 
 		#wrapper > header {
-			padding: 6.5em 2em 3em 2em ;
+			padding: 4.5em 2em 3em 2em ;
 			background-size: auto, 125%;
 			margin-bottom: -2.5em;
 		}
