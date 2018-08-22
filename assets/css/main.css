@@ -3170,6 +3170,7 @@
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			text-align: center;
 		}
 
 		#banner p {
@@ -3195,7 +3196,15 @@
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
+			text-align: center;
 			/*text-transform: uppercase;*/
+		}
+
+		#banner img {
+			max-width: 100px;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 10px;
 		}
 
 		@media screen and (max-width: 1280px) {
